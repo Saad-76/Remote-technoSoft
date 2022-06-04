@@ -1,0 +1,23 @@
+.background-color-join{
+    /* background-color: grey; */
+    background-color: #020c31;
+    /* padding: 40px; */
+    /* padding: 60px; */
+
+}
+.join-section-inner{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.join-section-inner h1{
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.join-data{
+    margin: 10px 0px;
+
+}

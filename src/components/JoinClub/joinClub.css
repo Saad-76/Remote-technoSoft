@@ -1,0 +1,49 @@
+.join-club-outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+
+}
+.join-club-outer h3{
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+
+    /* padding: 12px;
+    font-weight: bold; */
+}
+.join-club-outer p{
+    color: black;
+    font-size: 18px;
+
+}
+.join-club-heading{
+    font-family: 'Clash Display', sans-serif;
+    color: #161616;
+    font-size: 3.0em;
+    line-height: 120%;
+    font-weight: 700;
+}
+@media only screen and (max-width: 900px) {
+    .join-club-outer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   padding: 38px;
+        text-align: justify;
+    
+    }
+    .join-club-heading {
+        font-family: 'Clash Display', sans-serif;
+        color: #161616;
+        font-size: 2.4em;
+        line-height: 120%;
+        font-weight: 700;
+    }
+  }

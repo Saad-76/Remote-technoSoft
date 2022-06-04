@@ -1,0 +1,46 @@
+.realistic-ape-outer h3 {
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+.realistic-ape-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+padding-top: 100px;
+padding-bottom: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
+}
+.realistic-ape-outer p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.realistic-heading-style{
+  font-family: 'Courier New', Courier, monospace;
+  color: #161616;
+  font-size: 3.0em;
+  line-height: 120%;
+  font-weight: 700;
+}
+@media only screen and (max-width: 900px) {
+    .realistic-ape-outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 38px;
+        text-align: justify;
+    
+    }
+    .realistic-heading-style {
+      font-family: 'Clash Display', sans-serif;
+      color: #161616;
+      font-size: 2.0em;
+      line-height: 120%;
+      font-weight: 700;
+  }
+  }

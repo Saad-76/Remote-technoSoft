@@ -1,0 +1,33 @@
+.background-color-mint{
+    /* background-color: white; */
+
+    /* padding: 69px 20px; */
+    padding-bottom: 114px;
+    padding-left: 20px;
+}
+.mint-content-here {
+   color: white;
+    padding: 10px 0px;
+    text-align: justify;
+}
+.mint-content-here h3{
+   color: white;
+   padding: 32px 25px;
+
+}
+.mint-content-here p{
+}
+@media only screen and (max-width: 900px) {
+    .mint-content-here {
+       color: white;
+        padding: 10px 15px;
+        text-align: justify;
+    }
+    .background-color-mint {
+        /* background-color: white; */
+        /* padding: 69px 20px; */
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+  }

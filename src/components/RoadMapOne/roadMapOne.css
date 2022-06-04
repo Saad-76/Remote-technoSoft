@@ -1,0 +1,157 @@
+.roadmap-one-outer {
+  padding-top: 2%;
+}
+.road-map-heading {
+  padding: 40px 40px;
+  padding-top: 4%;
+  font-family: 'Courier New', Courier, monospace;
+  color: #161616;
+  font-size: 3.44em;
+  line-height: 120%;
+  font-weight: 700;
+  color: white;
+}
+.road-map-heading-outer {
+  text-align: center;
+}
+.vertical-timeline-element-icon {
+  color: black !important;
+}
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+  width: 40px;
+  height: 40px;
+  left: 50.8%;
+  margin-left: -30px;
+}
+.bounce-in {
+  color: black !important;
+}
+.vertical-timeline-element-content {
+  position: relative;
+  margin-left: 60px;
+  background: #fff;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 0 black;
+}
+.vertical-timeline-element-content p {
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.roadmapOne-read-more {
+  font-weight: 800;
+  font-size: 30px;
+  display: inline-block;
+  background-image: linear-gradient(135deg, #d1f46f 0%, #fbff0f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.vertical-timeline-element-content-arrow {
+  border: none !important;
+}
+.close-button-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.modal-background-launch {
+  background-color: rgb(255, 255, 255) !important;
+  color: white !important;
+}
+.background-color-launch {
+  background-color: rgb(255, 255, 255) !important;
+  color: white !important;
+}
+
+.launch-modal-body {
+  background-color: #fffc00;
+}
+.background-color-launch-modal {
+  background-color: #fffc00;
+}
+.launch-close-button {
+  background-color: #fffc00;
+}
+.close-button-launch-inner {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: box-shadow 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-family: "Clash Display", sans-serif;
+  color: black;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 6px;
+}
+.close-button-launch-inner:hover {
+  background-color: black;
+  color: white;
+}
+.background-color-mint-modal {
+  background-color: #03091f;
+}
+.mint-modal-content {
+  color: white;
+}
+.modal-background-mint {
+  background-color: #03091f;
+}
+.mint-modal-close {
+  background-color: #03091f;
+}
+.mint-heading-style {
+  padding: 12px;
+}
+.mint-close-inner {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fffc00;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: box-shadow 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-family: "Clash Display", sans-serif;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+}
+.mint-close-inner:hover {
+  border-color: #fffc00;
+  background-color: #f5f48c;
+  color: black;
+}
+
+.vertical-timeline-element-title {
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+@media only screen and (max-width: 900px) {
+  .vertical-timeline-element-content.bounce-in {
+    animation: none !important;
+    -webkit-animation: none !important;
+  }
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 40px;
+    height: 40px;
+    left: 8.5%;
+    margin-left: -30px;
+  }
+  .road-map-heading {
+    padding: 40px 40px;
+    padding-top: 4%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #161616;
+    font-size: 2.44em;
+    line-height: 120%;
+    font-weight: 700;
+    color: white;
+  }
+}

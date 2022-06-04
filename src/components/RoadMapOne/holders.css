@@ -1,0 +1,33 @@
+.RoadmapOne-holder-background{
+    background-color: yellow;
+    padding: 20px 12px;
+
+}
+.holders-content-here{
+    color: black;
+    padding: 10px 26px;
+    text-align: justify;
+}
+.holders-content-here h3{
+    color: black;
+    padding: 12px;
+
+}
+.holders-content-here p{
+    color: black;
+}
+@media only screen and (max-width: 900px) {
+    .holders-content-here {
+        color: black;
+        padding: 10px 15px;
+        text-align: justify;
+    }
+    .background-color-holders {
+        /* background-color: white; */
+        /* padding: 69px 20px; */
+        padding-bottom: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+  }
